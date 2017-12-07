@@ -1,0 +1,49 @@
+.top{
+	width:100%;
+	background-color: rgb(233, 32, 61);
+    color: #fff;
+    height:40px;
+    font-size:14px;
+    line-height: 40px;
+}
+.top1{
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+.top .search{
+	height:30px;
+	border:solid 1px #e9203d;
+	outline: none;
+	color:#333;
+	width:100%;
+	border-radius:10px;
+	padding:0 5px 0 25px;
+	background:#fff url(/images/search.svg) 2px center no-repeat / 20px 20px;
+}
+.top .city_box{
+	text-align: center;
+}
+.top .city_box a{
+	color:#fff;
+}
+.top .user{
+	text-align: center;
+}
+
+
+.list-type{
+	font-size: 18px;
+	text-align: center;
+	height: 40px;
+}
+
+
+.header-type{
+	display:inline-block;
+	width:66%;
+	height:40px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}

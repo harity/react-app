@@ -1,0 +1,135 @@
+.swipe,.swipe-box{
+
+	background-color: #fff;
+}
+.swipe-box{
+    margin-top:40px;
+}
+.swipe ul {
+    width: 100%;
+    height: auto;
+}
+.swipe ul li {
+    display: block;
+    list-style: none;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: 50px auto;
+    background-position: top center;
+    text-align: center;
+    padding-top: 50px;
+    color: #666;
+    font-size: 14px;
+    float:left;
+}
+.swipe ul li.jingdian {
+    background-image: url(/images/1.png);
+}
+.swipe ul li.ktv {
+    background-image: url(/images/2.png);
+}
+.swipe ul li.gouwu {
+    background-image: url(/images/3.png);
+}
+.swipe ul li.shenghuofuwu {
+    background-image: url(/images/4.png);
+}
+.swipe ul li.jianshenyundong {
+    background-image: url(/images/5.png);
+}
+.swipe ul li.meifa {
+    background-image: url(/images/6.png);
+}
+.swipe ul li.qinzi {
+    background-image: url(/images/7.png);
+}
+.swipe ul li.xiaochikuaican {
+    background-image: url(/images/8.png);
+}
+.swipe ul li.zizhucan {
+    background-image: url(/images/9.png);
+}
+.swipe ul li.jiuba {
+    background-image: url(/images/10.png);
+}
+.swipe ul li.meishi {
+    background-image: url(/images/11.png);
+}
+.swipe ul li.dianying {
+    background-image: url(/images/12.png);
+}
+.swipe ul li.jiudian {
+    background-image: url(/images/13.png);
+}
+.swipe ul li.xuixianyule {
+    background-image: url(/images/14.png);
+}
+.swipe ul li.waimai {
+    background-image: url(/images/15.png);
+}
+.swipe ul li.huoguo {
+    background-image: url(/images/16.png);
+}
+.swipe ul li.liren {
+    background-image: url(/images/17.png);
+}
+.swipe ul li.dujiachuxing {
+    background-image: url(/images/18.png);
+}
+.swipe ul li.zuliaoanmo {
+    background-image: url(/images/19.png);
+}
+.swipe ul li.zhoubianyou {
+    background-image: url(/images/20.png);
+}
+.swipe ul li.ribencai {
+    background-image: url(/images/21.png);
+}
+.swipe ul li.SPA {
+    background-image: url(/images/22.png);
+}
+.swipe ul li.jiehun {
+    background-image: url(/images/23.png);
+}
+.swipe ul li.xuexipeixun {
+    background-image: url(/images/24.png);
+}
+.swipe ul li.xican {
+    background-image: url(/images/25.png);
+}
+.swipe ul li.huochejipiao {
+    background-image: url(/images/26.png);
+}
+.swipe ul li.shaokao {
+    background-image: url(/images/27.png);
+}
+.swipe ul li.jiazhuang {
+    background-image: url(/images/28.png);
+}
+.swipe ul li.chongwu {
+    background-image: url(/images/29.png);
+}
+.swipe ul li.quanbufenlei {
+    background-image: url(/images/30.png);
+}
+
+.index-container {
+    margin-top: 10px;
+}
+.index-container  ul {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.index-container li {
+    list-style: none;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #ccc;
+    margin: 0 3px;
+}
+.index-container li.selected {
+    background-color: rgb(233, 32, 61);
+}
