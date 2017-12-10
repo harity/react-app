@@ -39,3 +39,7 @@
 	left:calc(40%+5px);
 	bottom: 0;
 }
+.loadmore{
+	text-align: center;
+	line-height: 30px;
+}
