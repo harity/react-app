@@ -40,7 +40,6 @@ export default class Homelist extends React.Component{
     };
 
     moremsg(){
-    	console.log(111)
     	var myFetchOptions = {
 			method: 'GET'
 		};
