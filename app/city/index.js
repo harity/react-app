@@ -2,20 +2,21 @@ var React = require('react');
 import CityHeader from '../Components/header/city-header';
 import './index.css'
 import {observer} from 'mobx-react';
-import Store from '../mobx/index';
+import store from '../mobx/index';
 
-const City  = observer(class City extends React.Component{
+@observer
+export default class City extends React.Component{
 	constructor() {
         super();
         this.state = {
-        	city : Store.city
+        	city : store.city
         }
     };
     clickHandle(cityName) {
         //localStorage.city = cityName;
-        Store.city = cityName;
+        store.city = cityName;
         this.setState({
-        	city : Store.city
+        	city : store.city
         })
     };
 	render() {
@@ -43,5 +44,4 @@ const City  = observer(class City extends React.Component{
             </div>
         )
     }
-})
-export default City;
+}

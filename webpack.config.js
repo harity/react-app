@@ -13,7 +13,7 @@ module.exports = {
         exclude: /(node_modules)/,
         loader: 'babel-loader',
         query: {
-          presets: ['react', 'es2015'],
+          presets: ['react', 'es2015','stage-1'],
           plugins: ['react-html-attrs',"transform-decorators-legacy"], //添加组件的插件配置
         }
       },
