@@ -67,7 +67,7 @@ export default class Homelist extends React.Component{
          	))
 			: '没有加载到任何新闻';
         return (
-            <div className="homelist">
+            <div className="homelist-Home">
             	<p>---推荐---</p>
 	            {newsList}
 	            <div className="loadmore" ref="wrapper">

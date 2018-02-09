@@ -22,7 +22,7 @@ export default class City extends React.Component{
 	render() {
         return (
         	<div>
-        		<CityHeader/>
+        		<CityHeader type={'城市选择'}/>
         		<p className="cityname">{this.state.city == null?'北京':this.state.city}</p>
         		<div className="city-box">
 					<p>---热门城市---</p>

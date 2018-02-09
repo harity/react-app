@@ -1,8 +1,8 @@
-.homelist{
+.homelist-Home{
 	margin-top:10px;
 	background-color: #fff;
 }
-.homelist p{
+.homelist-Home p{
 	text-align: center;
 	font-size: 16px;
 }

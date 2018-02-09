@@ -21,7 +21,11 @@ export default class Header extends React.Component{
 				    <Col span={16}>
 				    	<input type="text" placeholder="请输入内容" className="search"  />
 				    </Col>	
-				    <Col span={4} className="user"><Icon type="user" /></Col>
+				    <Col span={4} className="user">
+				    	<Link to="/usercenter">
+				    		<Icon type="user" />
+				    	</Link>
+				    </Col>
 			    </Row>
             </div>
         )

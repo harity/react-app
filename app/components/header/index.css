@@ -30,7 +30,9 @@
 .top .user{
 	text-align: center;
 }
-
+.top .user a{
+	color:#fff;
+}
 
 .list-type{
 	font-size: 18px;

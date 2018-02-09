@@ -18,7 +18,7 @@ export default class CityHeader extends React.Component{
 				    	<span onClick={hashHistory.goBack}><Icon type="left" /></span>
 				    </Col>
 				    <Col span={16} className="list-type">
-				    	<span>选择城市</span>
+				    	<span>{this.props.type}</span>
 				    </Col>	
 				    <Col span={4}></Col>
 			    </Row>
