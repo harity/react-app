@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 import CityHeader from '../Components/header/city-header';
 import './index.css'
 import {observer} from 'mobx-react';

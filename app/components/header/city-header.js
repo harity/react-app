@@ -1,4 +1,4 @@
-var React = require('react');
+import React from 'react';
 import './index.css';
 import 'antd/dist/antd.css';
 import {

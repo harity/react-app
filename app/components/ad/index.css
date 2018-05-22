@@ -15,7 +15,7 @@
 }
 .ad .img-box{
 	width:32%;
-	float:left;
+	display: inline-block;
 	margin:0 1%;
 }
 .ad .img-box:nth-of-type(3n+2){
